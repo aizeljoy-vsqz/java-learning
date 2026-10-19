@@ -8,15 +8,16 @@ public class TypeCasting {
     public static void main(String[] args) {
         System.out.println("---> Type Casting <---");
 
+        // Widening Casting (automatic)
         int small = 2;
-        double toInt = small; // type casting (widening)
+        double toDouble = small; // type casting (widening)
+        System.out.println("from int to double: " + toDouble);
+
+
+        // Narrowing Casting (Manual) required to enclose type in parentheses
         double medium = 2.5;
-
-        // Widening casting
+        int toInt = (int) medium;
         System.out.println("from double to int: " + toInt);
-
-        // Narrowing Casting
-        System.out.println("from int to double: " + (int) medium);
 
 
     }

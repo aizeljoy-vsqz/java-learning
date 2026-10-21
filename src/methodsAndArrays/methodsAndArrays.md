@@ -30,7 +30,7 @@
 - You can loop through an array using ``for`` loop or ``for each`` loop.
 - You can use the ``length`` property to specify hor many times the loop.
 
-### Multidimensional Array
+Multidimensional Array
 - Multidimensional array is an array that contains another arrays.  
 - To create a two-dimensional array, write each row inside its own curly braces.
     ``` java

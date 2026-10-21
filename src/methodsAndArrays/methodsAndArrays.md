@@ -45,5 +45,79 @@
     System.out.println(num[0][1]); // result 1
     ```
 
+<br/>
 
+### Method  
+- Method are used to perform a certain actions.
+- Method is a block of code, which runs when it is called.
+- You can pass a parameter into a method.
+
+**Create a Method**  
+
+Method must be declared within a class.
+```java
+class Main{
+    static void methodName(){
+        // code to be executed
+    }
+}
+```
+``static`` - means the method belongs to the Main class and not an object of the Main class.  
+``void`` - means nothing to return.  
+``return`` - if you want to return a value used return keyword instead of void.
+
+**Call a Method**  
+- To call a method you need to write the method name followed by ``()`` inside the main method.
+    ```java
+    class Main{
+        static void methodName(){
+        // CODE
+        }
+        public static void main(String[] args){
+            // call the methodName 
+            methodName();
+        }
+    }
+    ```
   
+**Parameters and Arguments**
+- Parameters is the one you pass into a method, parameters act as a variable inside the method.  
+- Arguments is the one you pass when you called the methods.
+
+    ```java
+    class Main{
+        // name is the parameter
+        static void greet(String name){
+            System.out.println("Hello " + name);
+        } 
+  
+        public static void main(String[] args){
+          greet("Aiz"); // Aiz is the arguments.
+        }
+    } 
+    ```
+  
+**Method Overloading**
+- Method overloading is a multiple method with the same name but different parameters.
+- Note: Multiple methods can have the same name as long as the number and/or type of parameters are different.
+
+    ```
+    int num(int num1)
+    int num(int num1, int num2)
+    ```
+  
+**Recursion**  
+- Recursion is a technique where a function call itself.  
+- Halting condition is a condition where the method stop calling itself.
+- This technique provides a way to break complicated problems down into simpler problems which are easier to solve.
+    ```java
+    class Main{
+        static int totalSum(int num){
+            if (num == 0) return 0; // halting condition
+            return num + totalSum(num-1);
+        } 
+        main{
+            System.out.println(totalSum(5)); // recursion
+        }
+    }
+    ```

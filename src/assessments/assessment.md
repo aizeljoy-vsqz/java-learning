@@ -2,7 +2,7 @@
 
 These topics are AI assisted to assess my learnings in java fundamentals.
 
-*Notes: I will update this base on what I have finished in this assessment by putting complete marks ✅.*  
+*Notes: I will update this base on what I have finished in this assessments by putting complete marks ✅.*  
 
 **Topics Covered:**
 - Java fundamentals - variables, data types,  operators, input/output.  
@@ -16,7 +16,7 @@ These topics are AI assisted to assess my learnings in java fundamentals.
 
 --- 
 
-- [ ] **1. Predict the output** 
+- [x] **1. Predict the output** 
 
 *Without running the code first, write down the output. Then run it in your IDE to verify your answer.*  
 
@@ -36,7 +36,7 @@ public class Main {
 }
 ```
 ---
-- [ ] **2. User Input and Calculation**  
+- [x] **2. User Input and Calculation**  
 
 *Create a program named BasicCalculator*  
 
@@ -49,7 +49,7 @@ Requirements:
 
 ---
 
-- [ ] **3.Data Types and Conversion**  
+- [x] **3.Data Types and Conversion**  
 
 *Write a program that asks for a student's name and three subject grades.*  
 
@@ -62,7 +62,7 @@ Requirements:
 
 ---
 
-- [ ] **4. Debugging**  
+- [x] **4. Debugging**  
 
 *Find and correct the errors in this code.*  
 

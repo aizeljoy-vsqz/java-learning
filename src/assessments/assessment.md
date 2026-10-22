@@ -93,7 +93,7 @@ public class Main {
 
 ---
 
-- [ ] **1. Grade calculator**  
+- [x] **1. Grade calculator**  
 
 *Create GradeCalculator*
 
@@ -115,7 +115,7 @@ Requirements:
 
 ---
 
-- [ ] **2. Number classification**  
+- [x] **2. Number classification**  
 
 *Create NumberClassifier*  
 
@@ -125,7 +125,7 @@ Ask the user for an integer and determine whether it is:
 
 ---
 
--[ ] **3. Loop challenge**  
+-[x] **3. Loop challenge**  
 
 Create MultiplicationTable  
 
@@ -143,7 +143,7 @@ Enter a number: 5
 
 ---
 
-- [ ] **4. Nested loop pattern**  
+- [x] **4. Nested loop pattern**  
 
 *Create NumberPattern*   
 
@@ -163,7 +163,7 @@ Requirements:
 
 ---
 
-- [ ] **5. FizzBuzz**  
+- [x] **5. FizzBuzz**  
 
 *Create FizzBuzz*  
 

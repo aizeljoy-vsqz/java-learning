@@ -9,6 +9,7 @@ public class OopMain {
         inheritanceTopic();
         polymorphismTopic();
         superKeywordTopic();
+        abstractTopic();
     }
 
 
@@ -63,5 +64,14 @@ public class OopMain {
 
         Cat cat = new Cat();
         cat.printType();
+    }
+
+    // ---> Abstract:
+    static void abstractTopic(){
+        System.out.println("\n ---> Abstract <---");
+        // abstract class cannot use to create object.
+        // this is a JavaBook class:
+        JavaBook jb = new JavaBook();
+        jb.page();
     }
 }

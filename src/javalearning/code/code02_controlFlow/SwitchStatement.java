@@ -1,4 +1,4 @@
-package controlFlow;
+package javalearning.code.code02_controlFlow;
 
 /*
 * Switch - select one of many code blocks to be executed.

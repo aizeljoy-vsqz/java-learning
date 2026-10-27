@@ -1,4 +1,4 @@
-package assessments;
+package javalearning.assessments;
 
 import java.util.Scanner;
 

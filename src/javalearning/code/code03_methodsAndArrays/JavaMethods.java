@@ -1,4 +1,4 @@
-package methodsAndArrays;
+package javalearning.code.code03_methodsAndArrays;
 /*
 * Methods - a block of code, which runs when it is called.
 *         - you can pass a parameter and argument in a method.

@@ -1,4 +1,4 @@
-package controlFlow;
+package javalearning.code.code02_controlFlow;
 
 // for loop - recommended if you know the exact times you want to loop through a block of code.
 // nested loop - is it possible to place loop inside another loop.

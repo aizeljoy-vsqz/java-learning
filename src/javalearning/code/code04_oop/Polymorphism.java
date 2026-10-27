@@ -1,4 +1,4 @@
-package oop;
+package javalearning.code.code04_oop;
 /* Polymorphism
 *       - means many forms
 *       - inheritance let us inherit attributes and methods from other class.

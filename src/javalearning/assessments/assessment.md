@@ -1,11 +1,11 @@
 # 📝 Java Fundamentals Assessment:
 
-These topics are AI assisted to assess my learnings in java fundamentals.
+These topics are AI assisted to assess my learnings in java javalearning.code.code01_fundamentals.
 
-*Notes: I will update this base on what I have finished in this assessments by putting complete marks ✅.*  
+*Notes: I will update this base on what I have finished in this javalearning.assessments by putting complete marks ✅.*  
 
 **Topics Covered:**
-- Java fundamentals - variables, data types,  operators, input/output.  
+- Java javalearning.code.code01_fundamentals - variables, data types,  operators, input/output.  
 - Logic and control flow - conditions, loops and nested loops.   
 - Arrays - traversal, searching, calculations
 - Methods - parameters, return values, decomposition
@@ -403,7 +403,7 @@ Requirements:
 
 *Create a small console application named StudentScoreManager*  
 
-Your program must combine fundamentals, control flow, arrays, and methods.
+Your program must combine javalearning.code.code01_fundamentals, control flow, arrays, and methods.
 
 Requirements
 1. Ask the user how many students they want to record.

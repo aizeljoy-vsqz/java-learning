@@ -14,8 +14,8 @@
 
 ### OOP  
 - OOP stands for Object-Oriented Programming
-- oop is about creating an objects that contains attributes & methods.  
-- oop is ideal for building scalable, reusable and maintainable code.
+- javalearning.code.code04_oop is about creating an objects that contains attributes & methods.  
+- javalearning.code.code04_oop is ideal for building scalable, reusable and maintainable code.
 
 <br/>
 

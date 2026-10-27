@@ -1,7 +1,7 @@
-package oop;
-import oop.Inheritance.BookContext;
-import oop.Polymorphism.*;
-import oop.SuperKeyword.*;
+package javalearning.code.code04_oop;
+import javalearning.code.code04_oop.Inheritance.BookContext;
+import javalearning.code.code04_oop.Polymorphism.*;
+import javalearning.code.code04_oop.SuperKeyword.*;
 
 public class OopMain {
     public static void main(String[] args) {

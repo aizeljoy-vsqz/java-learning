@@ -1,4 +1,4 @@
-package oop;
+package javalearning.code.code04_oop;
 /* Abstract
 *       - abstract class cannot use to create object.
 *       - abstract class can use to inherited class

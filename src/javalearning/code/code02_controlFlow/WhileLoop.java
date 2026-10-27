@@ -1,4 +1,4 @@
-package controlFlow;
+package javalearning.code.code02_controlFlow;
 /*
 *   While Loop - repeats a block of code while condition is true.
 *              - if condition is false, the block of code inside the loop will never run.

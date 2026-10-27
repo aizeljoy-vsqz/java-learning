@@ -1,4 +1,4 @@
-package oop;
+package javalearning.code.code04_oop;
 /*
  * super keyword
  *       - used to refer parent  class of a subclass.

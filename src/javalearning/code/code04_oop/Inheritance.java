@@ -1,4 +1,4 @@
-package oop;
+package javalearning.code.code04_oop;
 /* Inheritance
         - inheritance let us inherit attributes and methods from other class.
 *       - inherit from a class using extends keyword

@@ -1,4 +1,4 @@
-package javalearning.code.code01_fundamentals;
+package javalearning.fundamentals;
 /*
 * Java Operators
 *   - Arithmetic Operators (* / + - % ++ --)

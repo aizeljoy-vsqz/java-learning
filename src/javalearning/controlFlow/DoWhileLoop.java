@@ -1,4 +1,4 @@
-package javalearning.code.code02_controlFlow;
+package javalearning.controlFlow;
 
 /*
 * Do while loop - execute the code block once, before checking if the condition is true.

@@ -1,4 +1,4 @@
-package javalearning.code.code04_oop;
+package javalearning.oop;
 /* Encapsulation
 *       - use to hide sensitive data.
 *       - use private access modifier to attributes.

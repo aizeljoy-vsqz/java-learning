@@ -1,4 +1,4 @@
-package javalearning.code.code02_controlFlow;
+package javalearning.controlFlow;
 
 /*
 * if statement - to specify a block of code to be executed, if condition is true.

@@ -1,4 +1,4 @@
-package javalearning.code.code03_methodsAndArrays;
+package javalearning.methodsandarrays;
 
 /*
 * Arrays - used to store multiple values in a single variable.

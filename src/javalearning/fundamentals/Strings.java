@@ -1,4 +1,4 @@
-package javalearning.code.code01_fundamentals;
+package javalearning.fundamentals;
 /*
 * Strings - is a collection of characters surrounded by double quotes "".
 *

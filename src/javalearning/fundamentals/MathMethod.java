@@ -1,4 +1,4 @@
-package javalearning.code.code01_fundamentals;
+package javalearning.fundamentals;
 
 /*
 * Math method - math method allows you to perform mathematical task on numbers.

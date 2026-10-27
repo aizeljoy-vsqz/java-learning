@@ -1,4 +1,4 @@
-package javalearning.code.code04_oop;
+package javalearning.oop;
 /* Class
 *       - is a blueprint or template for creating an object
 *

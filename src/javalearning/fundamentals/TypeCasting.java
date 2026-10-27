@@ -1,4 +1,4 @@
-package javalearning.code.code01_fundamentals;
+package javalearning.fundamentals;
 /*
 * Type Casting - converting one data type to another data type
 *              - Widening casting -> from smaller type to larger type (ex: int -> double)

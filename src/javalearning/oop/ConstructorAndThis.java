@@ -1,4 +1,4 @@
-package javalearning.code.code04_oop;
+package javalearning.oop;
 /* Constructors
 *       - used to initialized objects.
 *       - a constructor is called when an object of a class is created.

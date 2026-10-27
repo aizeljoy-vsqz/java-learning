@@ -3,12 +3,12 @@
 This repository documents my journey javalearning java.
 
 ## Goals
-- Learn java javalearning.code.code01_fundamentals.
+- Learn java javalearning.fundamentals.
 - Use Git to track my javalearning progress.
 - Document key java concepts and take notes as I learn.
 
 ## Topics
-- Java javalearning.code.code01_fundamentals
+- Java javalearning.fundamentals
 - Logic & control flow
 - Methods and arrays
 - Object-oriented programming (OOP)

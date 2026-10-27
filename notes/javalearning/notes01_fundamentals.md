@@ -1,4 +1,4 @@
-# 👩🏻‍💻Java javalearning.code.code01_fundamentals notes
+# 👩🏻‍💻Java javalearning.fundamentals notes
 
 ### Fundamentals content:
 - **Main method**

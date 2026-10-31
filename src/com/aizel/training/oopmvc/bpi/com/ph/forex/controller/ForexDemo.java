@@ -1,7 +1,7 @@
-package training.oopmvc.bpi.com.ph.forex.controller;
+package com.aizel.training.oopmvc.bpi.com.ph.forex.controller;
 
-import training.oopmvc.bpi.com.ph.forex.model.Customer;
-import training.oopmvc.bpi.com.ph.forex.view.Display;
+import com.aizel.training.oopmvc.bpi.com.ph.forex.model.Customer;
+import com.aizel.training.oopmvc.bpi.com.ph.forex.view.Display;
 
 import java.util.Scanner;
 

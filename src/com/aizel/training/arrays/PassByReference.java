@@ -1,4 +1,4 @@
-package training.arrays;
+package com.aizel.training.arrays;
 
 public class PassByReference {
     public static void main(String[] args) {

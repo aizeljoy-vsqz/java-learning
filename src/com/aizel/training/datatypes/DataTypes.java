@@ -1,4 +1,4 @@
-package training.datatypes;
+package com.aizel.training.datatypes;
 /*********************
  * This application demonstrates the 8 primitive types.
  *
@@ -73,7 +73,7 @@ public class DataTypes {
             System.out.println("You need to be mindful of your spending.");
         }
 
-        String myMessage = new String("Welcome to ASE Reinvention Java Backend training");
+        String myMessage = new String("Welcome to ASE Reinvention Java Backend com.aizel.training");
         System.out.println(myMessage);
 
         //use of instrospection

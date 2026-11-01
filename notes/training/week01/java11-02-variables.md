@@ -110,3 +110,20 @@
 - operators of equal precedence evaluated left to right.
 - `()` can override precedence with parenthesis.
 - Nested parenthesis evaluated from inside out.
+
+<br/>
+
+### Type Conversion
+- implicit type conversion
+  - widening conversion automatically performed by the compiler.
+      ```java
+      int intValue = 5;
+      long longValue = intValue;
+      ```
+- explicit type conversion
+  - performed explicitly in code with cast operator
+  - can be widening or narrowing
+    ```java
+    long longValue = 50;
+    int intValue = (int)longValue;
+    ```

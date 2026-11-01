@@ -1,4 +1,4 @@
-package com.aizel.training.arrays;
+package com.aizel.training.sourcecode.arrays;
 
 public class ArraysDemo {
 

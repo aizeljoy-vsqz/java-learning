@@ -1,4 +1,4 @@
-package com.aizel.training.datatypes;
+package com.aizel.training.sourcecode.datatypes;
 /*********************
  * This application demonstrates the 8 primitive types.
  *

@@ -1,5 +1,5 @@
-package com.aizel.training.oopmvc.bpi.com.ph.forex.view;
-import com.aizel.training.oopmvc.bpi.com.ph.forex.model.Customer;
+package com.aizel.training.sourcecode.oopmvc.bpi.com.ph.forex.view;
+import com.aizel.training.sourcecode.oopmvc.bpi.com.ph.forex.model.Customer;
 
 public class Display {
     public static void showMenu() { //static or class method

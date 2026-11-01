@@ -1,4 +1,4 @@
-package com.aizel.training.oopmvc.bpi.com.ph.forex.model;
+package com.aizel.training.sourcecode.oopmvc.bpi.com.ph.forex.model;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.aizel.training.conditional;
+package com.aizel.training.sourcecode.conditional;
 
 import java.util.Scanner;
 

@@ -76,16 +76,37 @@
 - No Link: Changing variable A will never accidentally change variable B.
   - each variable's values are unrelated to any other variable's values.
 
-```
-int firstValue = 100; // firstValue is 100
-int otherValue = firstValue; // otherValue gets a COPY of 100. They are now independent.
-
-frst value = 50 // firstValue changes to 50.
-                // otherValue is completely unaffected and remains 100.
-```
+  ```
+    int firstValue = 100; // firstValue is 100
+    int otherValue = firstValue; // otherValue gets a COPY of 100. They are now independent.
+    
+    frst value = 50 // firstValue changes to 50.
+                    // otherValue is completely unaffected and remains 100.
+  ```
 <br/>
 
+### Math  Operators
 
+#### Basic Operator
+- `+`, `-`, `*`, `/`, `%`
 
+#### Prefix and Postfix Operators
+- `++` increment value by 1.
+- `--` decrement value by 1.
+- Order:
+  - *prefix* applies operation before returning value.
+  - *postfix* applies operation after returning the value. 
 
+#### Compound Assignment Operators
+- combine an operators & assignment.
+- store results in variable on left side.
+- `+=`, `-=`, `*=`, `/=`, `%=`
 
+#### Operator Precedence
+- postfix: `++x`, `--x`
+- prefix: `x++`, `x--`
+- multiplicative: `*`, `/`, `%`
+- additive: `+`, `-`
+- operators of equal precedence evaluated left to right.
+- `()` can override precedence with parenthesis.
+- Nested parenthesis evaluated from inside out.

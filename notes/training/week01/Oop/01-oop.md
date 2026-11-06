@@ -75,18 +75,18 @@ to a shopping cart, then check out, making a payment using a credit card."
 
 - Customer, Order, Product, Shopping Cart, Payment, Credit Card.
 ```
-![conceptual_classes](Oop/img/conceptual_classes.png)
+![conceptual_classes](img/conceptual_classes.png)
 
 <br/>
 
 #### Class Relations
 Relationship of classes to another  
 
-![class_relations](Oop/img/class_relations.png)
+![class_relations](img/class_relations.png)
 <br/>
 
 #### Software Classes
-![customer_credit_card_uml](Oop/img/customer_credit_card_uml.png)
+![customer_credit_card_uml](img/customer_credit_card_uml.png)
 
 ```java
 public class Customer {
@@ -108,7 +108,7 @@ class CreditCard{
     }
 }
 ```
-![product_shopping_cart_uml](Oop/img/product_shopping_cart_uml.png)
+![product_shopping_cart_uml](img/product_shopping_cart_uml.png)
 
 ```java
 public class Product {

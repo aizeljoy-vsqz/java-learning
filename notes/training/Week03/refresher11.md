@@ -52,27 +52,27 @@
 
 #### method to test
 ```java
-    void testAddition(){
-        int p1 = 2;
-        int p2 = 3;
-        int expected = 5;
+void testAddition(){
+    int p1 = 2;
+    int p2 = 3;
+    int expected = 5;
         
-        int  actualResult = calculator.add(p1,p2);
-    }
+    int  actualResult = calculator.add(p1,p2);
+}
 ```
 
 #### JUnit allows us to parameterized test
 ```java
-    @ParameterizedTest
-    @DisplayName ("")
-    @Tag("")
-    @CSVSource({
-    "2,3,6",
-    "4,5,0",...
-    })
-    void testMultiplication(int a, int b){
-    assertEquals(expectedResult, calc.multiply(a,b))
-    }
+  @ParameterizedTest
+  @DisplayName ("")
+  @Tag("")
+  @CSVSource({
+      "2,3,6",
+      "4,5,0",...
+      })
+  void testMultiplication(int a, int b){
+  assertEquals(expectedResult, calc.multiply(a,b))
+}
 ```
 - *CSVSource:* 2 is the firsNumber, 3 is the secondNumber, and 6 is the expected result
 - *in method:* int a is the 2, int b is the 3
@@ -86,14 +86,14 @@
 #### assertThrows
 - not every test returns check values
 - sometimes it throws exceptions
-  ```java
+```java
   @Test
   @DisplayName("")
   @Tag("")
   void testDivision(int a, int b){
     assertThrows(ArithmeticException.class()->calc.divide(5,0));
   }
-  ```
+```
   
 #### @RepeatedTest(n)
 - JUnit provides repeated test

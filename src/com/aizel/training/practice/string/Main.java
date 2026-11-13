@@ -17,5 +17,8 @@ public class Main {
         System.out.println("=====================SumDigits==================");
         System.out.println(SumDigits.sumDigits("aa1bc2d3"));
 
+        System.out.println("====================CountTriple=================");
+        System.out.println(CountTriple.countTriple("abcXXXXXabc"));
+
     }
 }

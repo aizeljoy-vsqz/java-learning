@@ -102,3 +102,64 @@
     }
     ```
 
+<br>
+
+## 5. Array Properties and Utility Methods in Java
+- Java provides a utility class called `Arrays`
+- which contains methods that make working with arrays easier
+- **Array properties** – information about an array
+- **Array utility methods** - predefined operations, used on arrays
+
+
+### | Array Property: `length` |
+- returns the number of elements
+- `length` is a property, not a method
+
+    ```java
+    int[] numbers = {10, 20, 30, 40, 50};
+    
+    System.out.println(numbers.length); // 5
+    ```
+
+### | Arrays Utility Class |
+- Java provides the `java.util.Arrays` class
+- to use:  `import java.util.Arrays;`
+
+    #### Arrays.toString()
+    - converts an array into a readable String representation
+    - display all array elements quickly, especially when debugging
+
+    ```java
+    import java.util.Arrays;
+    
+    int[] numbers = {10, 20, 30};
+    
+    System.out.println(Arrays.toString(numbers)); // [10, 20, 30]
+    ```
+
+  #### Arrays.sort()
+    - sorts array elements in ascending order
+    - ***important:*** it modifies the original array
+
+    ```java
+    import java.util.Arrays;
+
+    int[] numbers = {50, 20, 40, 10, 30};
+    
+    Arrays.sort(numbers); // [10, 20, 30, 40, 50]
+    ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

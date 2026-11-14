@@ -193,12 +193,51 @@
     System.out.println(Arrays.equals(first, second)); // true
     ```
 
+<br>
 
+## 6. Searching Arrays
+- 2 important searching techniques
+  - ***Linear Search*** – checks elements one by one
+  - ***Binary Search*** – repeatedly divides a sorted array into smaller sections
 
+### | Linear Search |
+- ***O(n)*** - 100 elements, algorithm might need to check all 100 elements
+- checks each element, from first element, 
+- until it finds the target value
+- or reaches the end
 
+    ```java
+    // use an integer variable initialized to -1 
+    // to store the result index
+    int foundIndex = -1;
+    
+    for (int i = 0; i < numbers.length; i++) {
+        if (numbers[i] == target) {
+            foundIndex = i;
+            break;
+        }
+    }
+    
+    System.out.println(foundIndex);
+    // if element not found, result remains -1
+    ```
 
+### | Binary Search |
+- ***O(log n)*** - 100 elements, at most about 7 comparisons to narrow down the search
+- repeatedly divides the search area in half
+- significantly faster for large, sorted arrays
+- ***important requirement:*** the array must be sorted
+- Java provides a built-in method through `Arrays` utility class
+- returns its index if found
+- ***important:*** if element isn't found, it returns a negative value
 
-
+    ```java
+    int[] numbers = {10, 20, 30, 40, 50, 60, 70};
+    
+    int target = 60;
+    
+    int result = Arrays.binarySearch(numbers, target); // 5
+    ```
 
 
 

@@ -1,6 +1,11 @@
 # Java Collection
-- [Introduction to List](#1-introduction-to-list)
-- [List Interface and Implementations](#2-list-interface-and-implementations)
+- [1. Introduction to List](#1-introduction-to-list)
+- [2. List Interface and Implementations](#2-list-interface-and-implementations)
+- [3. Adding & Accessing and Searching Elements](#3-adding--accessing-and-searching-elements)
+- [4. Updating & Removing Elements](#4-updating--removing-elements)
+- [5. Searching and Checking Elements in Java List](#5-searching-and-checking-elements-in-java-list)
+- [6. Iterating Through a List in Java](#6-iterating-through-a-list-in-java)
+- [7. Sorting and Manipulating Lists in Java](#7-sorting-and-manipulating-lists-in-java)
 
 ## 1. Introduction to List
 
@@ -48,6 +53,8 @@
 
 <br/>
 
+[⬇️](#3-adding--accessing-and-searching-elements)
+[⬆️](#java-collection)
 ## 2. List Interface and Implementations
 
 ### | What is List interface? |
@@ -126,6 +133,8 @@ List
 
 <br/>
 
+[⬇️](#4-updating--removing-elements)
+[⬆️](#java-collection)
 ## 3. Adding & Accessing and Searching Elements
 ### | add(element) --- get(index) |
 - `add()` - add element at the end
@@ -185,6 +194,8 @@ System.out.println(result); // true
 
 <br/>
 
+[⬇️](#5-searching-and-checking-elements-in-java-list)
+[⬆️](#java-collection)
 ## 4. Updating & Removing Elements
 
 ### | set(index, element) |
@@ -300,6 +311,8 @@ System.out.println(result); // true
   
 <br/>
 
+[⬇️](#6-iterating-through-a-list-in-java)
+[⬆️](#java-collection)
 ## 5. Searching and Checking Elements in Java List
 
 ### | contains() |
@@ -367,6 +380,7 @@ System.out.println(result); // true
 
 <br/>
 
+[⬆️](#java-collection)
 ## 6. Iterating Through a List in Java
 
 ### | Traditional for loop |
@@ -487,7 +501,7 @@ for (int i = 0; i < names.size(); i++) {
   
 <br/>
 
-## 6. Sorting and Manipulating Lists in Java
+## 7. Sorting and Manipulating Lists in Java
 
 ### | Collections.sort() |
 - `Collections.sort()` - to arrange elements in their natural order

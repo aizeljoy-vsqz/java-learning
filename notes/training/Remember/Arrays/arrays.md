@@ -137,21 +137,61 @@
     System.out.println(Arrays.toString(numbers)); // [10, 20, 30]
     ```
 
-  #### Arrays.sort()
+    #### Arrays.sort()
     - sorts array elements in ascending order
     - ***important:*** it modifies the original array
 
     ```java
     import java.util.Arrays;
-
-    int[] numbers = {50, 20, 40, 10, 30};
     
+    int[] numbers = {50, 20, 40, 10, 30};
+        
     Arrays.sort(numbers); // [10, 20, 30, 40, 50]
     ```
+    
+    - To sort in descending order
+    - for primitive integer arrays,
+    - sort ascending and then reverse the elements manually
 
+    ```java
+    Arrays.sort(numbers);
 
+    for (int i = 0; i < numbers.length / 2; i++) {
+  
+        int temp = numbers[i];
+        numbers[i] = numbers[numbers.length - 1 - i];
+        numbers[numbers.length - 1 - i] = temp;
+  
+    }
+    ```
 
+    #### Arrays.copyOf()
+    - Creates a copy of an existing array with a specified length
+    - ***important:*** the original remains unchanged
+    - ***important:*** the copied array is a separate array
+    
+    ```java
+    import java.util.Arrays;
+    
+    int[] original = {10, 20, 30};
+    
+    int[] copied = Arrays.copyOf(original, 3); // [10, 20, 30]
+  
+    // specify a different length
+    int[] copied = Arrays.copyOf(original, 5); // [10, 20, 30, 0, 0]
+    ```
 
+    #### Arrays.equals()
+    - checks whether two arrays contain the **same elements** in the **same order**
+    - ***important:*** do not use `==` to compare the contents of two arrays
+    ```java
+    import java.util.Arrays;
+    
+    int[] first = {10, 20, 30};
+    int[] second = {10, 20, 30};
+    
+    System.out.println(Arrays.equals(first, second)); // true
+    ```
 
 
 

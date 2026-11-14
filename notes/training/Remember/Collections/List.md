@@ -486,3 +486,110 @@ for (int i = 0; i < names.size(); i++) {
   ```
   
 <br/>
+
+## 6. Sorting and Manipulating Lists in Java
+
+### | Collections.sort() |
+- `Collections.sort()` - to arrange elements in their natural order
+
+  ```java
+  List<Integer> numbers = new ArrayList<>(List.of(5, 2, 8, 1, 9, 3));
+  
+  Collections.sort(numbers);
+  System.out.println(numbers); // [1,2,3,5,8,9]
+  ```
+
+### | Collections.reverseOrder() |
+- `Collections.reverseOrder()` - if you want the reverse order of natural order
+  ```java
+  List<Integer> numbers = new ArrayList<>(
+      List.of(5, 2, 8, 1, 9, 3)
+  );
+  
+  Collections.sort(numbers, Collections.reverseOrder());
+  
+  System.out.println(numbers);
+  ```
+  
+### | Comparator — Customize sorting rules |
+- if you don't want to sort using the natural order
+- A Comparator defines how two elements should be compared.
+- Comparator.comparingInt(String::length)
+  - compare Strings using their lengths instead of their alphabetical order
+
+  ```java
+  List<String> names = new ArrayList<>(
+      List.of("Alexander", "John", "Mike", "Ana")
+  );
+  
+  names.sort(
+      Comparator.comparingInt(String::length)
+  );
+  
+  System.out.println(names); // [Ana, John, Mike, Alexander]
+  ```
+  
+### | Collections.reverse() |
+- Reverse the List
+
+  ```java
+  List<Integer> numbers = new ArrayList<>(
+      List.of(1, 2, 3, 4, 5)
+  );
+  
+  Collections.reverse(numbers);
+  
+  System.out.println(numbers); // [5, 4, 3, 2, 1]
+  ```
+  
+### | Collections.shuffle() |
+- Randomize elements
+
+  ```java
+  List<Integer> numbers = new ArrayList<>(
+      List.of(1, 2, 3, 4, 5)
+  );
+  
+  Collections.shuffle(numbers);
+  
+  System.out.println(numbers); // [3, 1, 5, 2, 4]
+  ```
+  
+### | subList() |
+- Extract a portion of a List
+- Use subList(fromIndex, toIndex)
+- subList() is a view, not a separate independent List
+- modifications through the view are reflected in the original List.
+- Avoid structurally modifying the original List directly while using a subList view
+
+  ```java
+  List<Integer> numbers = new ArrayList<>(
+      List.of(10, 20, 30, 40, 50, 60)
+  );
+  
+  List<Integer> result = numbers.subList(1, 4);
+  
+  System.out.println(result); // [20, 30, 40]
+  ```
+
+### | Collections.min() and Collections.max() |
+- find the smallest and largest elements.
+
+  ```java
+  List<Integer> numbers = List.of(10, 5, 30, 2, 50);
+  
+  System.out.println(Collections.min(numbers)); // 2
+  System.out.println(Collections.max(numbers)); // 50
+  ```
+  
+### | Collections.frequency() |
+- Count occurrences
+
+  ```java
+    List<Integer> numbers = List.of(
+        1, 2, 2, 3, 3, 3, 4, 4, 4, 4
+    );
+    
+    System.out.println(Collections.frequency(numbers, 3)); // 3
+    System.out.println(Collections.frequency(numbers, 4)); // 4
+  ```

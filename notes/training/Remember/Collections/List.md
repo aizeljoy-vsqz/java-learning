@@ -121,3 +121,57 @@ List
       "John", "Jc", "Carlo"
   );
   ```
+
+<br/>
+
+## 3. Adding & Accessing Elements
+- `add()` - add element at the end
+- `get(index)` – Retrieve an element using its index.
+  ```java
+  List<String> names = new ArrayList<>();
+  names.add("John");
+  System.out.println(names.get(0));
+  ```
+- `add(index, element)` - insert an element at a specific location
+  - The existing elements shift to the right to make room for the new element.
+- `indexOf(element)` – Returns the first matching index
+- `lastIndexOf(element)` Returns the last matching index
+  ```java
+  names.add(1, "Jc");
+  int index = names.indexOf("Jc");
+  System.out.println(numbers.lastIndexOf("Jc"));
+  ```
+- `addAll()` - add multiple elements at once.
+  ```java
+  List<String> first = new ArrayList<>();
+  
+  first.add("John");
+  first.add("Carlo");
+  
+  List<String> second = new ArrayList<>();
+  
+  second.add("Aiz");
+  second.add("Zel");
+  
+  first.addAll(second);
+  ```
+  
+  ```java
+  List<Integer> numbers = new ArrayList<>(
+      List.of(10, 20, 50, 60)
+  );
+  
+  List<Integer> newNumbers = List.of(30, 40);
+  
+  numbers.addAll(2, newNumbers);
+  
+  System.out.println(numbers);
+  ```
+
+*Important: add(element) returns a boolean indicating whether the element was added successfully.*
+```java
+boolean result = names.add("Jc");
+System.out.println(result); // true
+```
+
+<br/>

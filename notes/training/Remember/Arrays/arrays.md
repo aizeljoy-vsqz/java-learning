@@ -1,5 +1,14 @@
 # Java Arrays
 
+1. [Introduction](#1-introduction)
+2. [Declaring and Initializing Arrays](#2-declaring-and-initializing)
+3. [Accessing and Modifying Array Elements](#3-accessing-and-modifying-elements)
+4. [Looping Through Arrays](#4-looping-through-arrays)
+5. [Array Properties and Utility Methods](#5-array-properties-and-utility-methods)
+6. [Searching Arrays](#6-searching-arrays)
+
+<br>
+
 ## 1. Introduction
 ### | Array |
 - a data structure
@@ -15,6 +24,7 @@
 
 <br>
 
+## [⬆](#java-arrays) [⬇](#end)
 ## 2. Declaring and Initializing
 ### | Declaring an Array |
 - recommended convention
@@ -41,6 +51,8 @@
     ```
 
 <br>
+
+## [⬆](#java-arrays) [⬇](#end)
 
 ## 3. Accessing and Modifying Elements
 ### | Accessing Array Elements |
@@ -73,6 +85,8 @@
 
 <br>
 
+## [⬆](#java-arrays) [⬇](#end)
+
 ## 4. Looping Through Arrays
 - a loop allows you to execute the same block of code repeatedly
 - making it easier to process every element in an array
@@ -104,7 +118,9 @@
 
 <br>
 
-## 5. Array Properties and Utility Methods in Java
+## [⬆](#java-arrays) [⬇](#end)
+
+## 5. Array Properties and Utility Methods
 - Java provides a utility class called `Arrays`
 - which contains methods that make working with arrays easier
 - **Array properties** – information about an array
@@ -195,6 +211,8 @@
 
 <br>
 
+## [⬆](#java-arrays) [⬇](#end)
+
 ## 6. Searching Arrays
 - 2 important searching techniques
   - ***Linear Search*** – checks elements one by one
@@ -239,6 +257,8 @@
     int result = Arrays.binarySearch(numbers, target); // 5
     ```
 
+## [⬆](#java-arrays)
+#### End
 
 
 

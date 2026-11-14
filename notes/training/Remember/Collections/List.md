@@ -364,3 +364,125 @@ System.out.println(result); // true
 - A HashSet may be a better choice. 0(1)
 - ArrayList for ordering
 - HashSet for fast searching
+
+<br/>
+
+## 6. Iterating Through a List in Java
+
+### | Traditional for loop |
+#### When to use?
+- You need the element's index.
+- You need to access the previous or next element.
+- You need to skip certain positions.
+- You need to iterate backward.
+- You need to update elements using set().
+
+#### Performance
+- ArrayList, get(i) is O(1)
+- traversing the entire list is O(n)
+- LinkedList index-based loop is O(n²).
+
+```java
+List<String> names = new ArrayList<>(
+    List.of("John", "Carlo", "Jc")
+);
+
+for (int i = 0; i < names.size(); i++) {
+    System.out.println(names.get(i));
+}
+```
+
+### | Enhanced for loop (for-each) |
+- If you don't need the index, use for-each
+- Updating an element does not replace the element in the list
+- use for-loop if you want to update elements.
+  ```java
+  List<String> names = new ArrayList<>(
+      List.of("Aiz", "Zel", "Joy")
+  );
+  
+  for (String name : names) {
+      System.out.println(name);
+  }
+  ```
+  
+### | Iterator — Traverse and safely remove elements |
+- traversal with safe removal
+- lets you move through a collection one element at a time
+- useful when you need to remove elements while iterating
+- `iterator()` - creates an iterator
+- `hasNext()` - checks whether another element exists
+- `next()` - Returns the next element
+- `remove()` - Removes the last element returned by next()
+
+  ```java
+  List<Integer> numbers = new ArrayList<>(
+      List.of(1, 2, 3, 4, 5,6)
+  );
+  
+  Iterator<Integer> iterator = numbers.iterator();
+  
+  while (iterator.hasNext()) {
+      Integer number = iterator.next();
+  
+      System.out.println(number);
+  }
+  
+  // ================================================
+  
+   while (iterator.hasNext()) {
+      Integer number = iterator.next();
+  
+      if (number % 2 == 0) {
+          iterator.remove();
+      }
+  }
+  
+  System.out.println(numbers);// [1,3,5]
+  ```
+
+*Important:*
+- You can only call iterator.remove() once after a successful next() call.
+- Calling it before next(), or twice for the same element, throws IllegalStateException.
+
+### | ListIterator — Traverse forward and backward |
+- regular iterator moves forward
+- ListIterator can do forward and backward traversal, plus modifications.
+  ```java
+  while (iterator.hasPrevious()) {
+      System.out.println(iterator.previous());
+  }
+  ```
+  
+- ListIterator allows modification during traversal using its own methods.
+- ListIterator methods:
+  - `hasNext()` - Checks for a next element
+  - `next()` - Returns the next element
+  - `hasPrevious()` - Checks for a previous element
+  - `previous()` - Returns the previous element
+  - `nextIndex()` - Returns the next element's index
+  - `previousIndex()` - Returns the previous element's index
+  - `add(value)` - Inserts an element
+  - `set(value)` - Replaces the last returned element
+  - `remove()` - Removes the last returned element
+
+### | forEach() — Iterate using a lambda expression |
+- using lambda
+  ```java
+  List<String> names = List.of(
+      "John", "Carlo", "Jc"
+  );
+  
+  names.forEach(name -> {
+      System.out.println(name);
+  });
+  ```
+  
+- You can shorten it further using a method reference:
+  ```java
+  name -> System.out.println(name)
+  
+  names.forEach(System.out::println); //short
+  ```
+  
+<br/>

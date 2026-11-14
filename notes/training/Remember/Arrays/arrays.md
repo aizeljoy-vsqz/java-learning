@@ -71,3 +71,34 @@
 - it will throw an exception: `ArrayIndexOutOfBoundsException`
 
 
+<br>
+
+## 4. Looping Through Arrays
+- a loop allows you to execute the same block of code repeatedly
+- making it easier to process every element in an array
+
+### | Traditional for Loop |
+- access array elements using their indexes
+- use `.length` instead of manually writing length
+    ```java
+    int[] numbers = {10, 20, 30, 40, 50};
+    
+    for (int i = 0; i < numbers.length; i++) {
+        System.out.println(numbers[i]);
+    }
+    ```
+
+### | Enhanced for Loop (For-Each) |
+- do not need to manage indexes manually
+- can't modify elements
+
+    ```java
+    int[] numbers = {10, 20, 30, 40, 50};
+    
+    // number – temporary variable that receives each element
+    // numbers – the array being traversed
+    for (int number : numbers) {
+        System.out.println(number);
+    }
+    ```
+

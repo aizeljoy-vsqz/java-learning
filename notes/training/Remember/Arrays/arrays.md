@@ -39,3 +39,35 @@
     // initialize using the new keyword with a size
     int[] numbers = new int[5];
     ```
+
+<br>
+
+## 3. Accessing and Modifying Elements
+### | Accessing Array Elements |
+- retrieving or reading
+- use index inside square brackets []
+- indexes start at 0
+- `.length` tells you how many elements the array contains
+    ```java
+    int[] numbers = {10, 20, 30, 40, 50};
+    
+    System.out.println(numbers[0]); // 10
+    System.out.println(numbers[1]); // 20
+    System.out.println(numbers[2]); // 30
+    ```
+
+### | Modifying Array Elements |
+- changing the value stored at a particular index
+- modify an element using the assignment operator `=`
+
+    ```java
+    int[] numbers = {10, 20, 30, 40, 50};
+    
+    numbers[0] = 100;
+    numbers[2] = 300;
+    ```
+
+### | Accessing an Invalid Index |
+- it will throw an exception: `ArrayIndexOutOfBoundsException`
+
+
